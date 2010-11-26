@@ -28,6 +28,7 @@ GEM
       activemodel (= 3.0.1)
       activesupport (= 3.0.1)
     activesupport (3.0.1)
+    annotate-models (1.0.4)
     arel (1.0.1)
       activesupport (~> 3.0.0)
     builder (2.1.2)
@@ -41,7 +42,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
-    nokogiri (1.4.3.1)
+    nokogiri (1.4.4)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-mount (0.6.13)
@@ -79,7 +80,7 @@ GEM
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
-    webrat (0.7.2)
+    webrat (0.7.1)
       nokogiri (>= 1.2.0)
       rack (>= 1.0)
       rack-test (>= 0.5.3)
@@ -88,8 +89,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate-models (= 1.0.4)
   rails (= 3.0.1)
-  rspec (= 2.0.0.beta.18)
   rspec-rails (= 2.0.0.beta.18)
   spork (= 0.8.4)
   sqlite3-ruby
+  webrat (= 0.7.1)
