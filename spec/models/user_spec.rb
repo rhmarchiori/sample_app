@@ -142,7 +142,7 @@ describe User do
     it "should exist" do
       User.should respond_to(:authenticate)
     end
-    
+        
     it "should return nil on email/password mismatch" do
       User.authenticate(@attr[:email], "wrongpass").should be_nil
     end
@@ -154,6 +154,5 @@ describe User do
     it "should return the user on email/passowrd match" do
       User.authenticate(@attr[:email], @attr[:passowrd]).should == @user
     end
-  end
-    
+  end      
 end
